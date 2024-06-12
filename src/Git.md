@@ -28,7 +28,7 @@
 - `git fetch`hace que tu repositorio local se actualice con la última información que hay en el repositorio remoto, pero no hace ninguna transferencia de archivos a tu espacio de trabajo local, sirve para ver si hay algún cambio y si es bueno traerlo a tu repositorio local.
 - `git pull` : comprueba si hay cambios en el repositorio remoto y, en caso de que haya, se trae eso archivos a tu repositorio local y tu espacio de trabajo.
 - `git checkout + el numero de issue`: este to permite crear un uno branch en git para el issue en la que estas trabajando.
-- `git add -p`: agrega todos los cambios a git uno por uno, así te permite revisar cada cambio y aceptar o rechazar el cambio que has hecho antes de hace `git push`.
+- `git add -p`: agrega todos los cambios los documentos de git uno por uno, así te permite revisar cada cambio y aceptar o rechazar el cambio que has hecho antes de hace `git push`.
 - `q` : es similar a quiet.
 - `git push origin --delete + numero de issue o branch a borrar`: Este comando se usa para borrar un repositorio en particular.
 - `git cherry-pick`: es un potente comando que permite que las confirmaciones arbitrarias de Git se elijan por referencia y se añadan al actual HEAD de trabajo. La ejecución de cherry-pick es el acto de elegir una confirmación de una rama y aplicarla a otra. git cherry-pick puede ser útil para deshacer cambios
@@ -210,7 +210,7 @@ Esto coincide con los tres árboles de git:
  - `git flow release start 1.0`: Para empezar a trabajar con una nueva version de la rama. Y luego el mismo procedimiento para trabajar y hacer
  - `git flow realese finish 1.0`: Y este se hacer una funsion main.
  - `git flow hotfix start + nombre poe ejemplo  'hotfix_1'`: Esto es para resolver problema en caso de que hay problemas después de realease.
- - Y otra vez `git flow finish + nombre ;` E igual que el anterior nos va a preguntar por hacer el merge en main, y luego en produccion. Esto es más o menos el mecanismo. 
+ - Y otra vez `git flow finish + nombre;` E igual que el anterior nos va a preguntar por hacer el merge en main, y luego en produccion. Esto es más o menos el mecanismo. 
  - Este mismo proceso se puede trabajar también con los comandos normales en base checkout y cambiar y hacer merge manualmente.
 
 # INTEGRACION CONTINUA : CI
